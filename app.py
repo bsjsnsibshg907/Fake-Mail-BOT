@@ -53,7 +53,7 @@ fsub_text = """
 **❗️ ATTENTION**
 
 You see this message because you are not subscribed to the channel:
-@szteambots
+@FA9SH 
 
 It is important that you are up to date with the latest updates and aware of the brand new functionality."""
 
@@ -105,7 +105,7 @@ async def fakemailgen(_, message: Message):
 **📬Done,Your Email Address Created!**
 📧 **Email** : `{email}@{domain}`
 📨 **Mail BOX** : `empty`
-**Powered by** : @szteambots """,
+**Powered by** : @FA9SH""",
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔰Update Mail Box🔰", callback_data = f"mailbox |{email}|{domain}")]]))
     pi = await mes.pin(disable_notification=True, both_sides=True)
     await m.delete()
@@ -145,7 +145,7 @@ async def mail_box(_, query : CallbackQuery):
 **📬Done,Your Email Address Created!**
 📧 **Email** : `{smail}`
 📨 **Mail BOX** : ✅
-**Powered by** : @szteambots""",
+**Powered by** : @FA9SH""",
 reply_markup = mbutton
 )   
         except bad_request_400.MessageNotModified as e:
