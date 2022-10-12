@@ -1,8 +1,8 @@
 {
     "name": "Fake-Mail Gen BOT",
     "description": "Fake Mail gen bot",
-    "repository": "https://github.com/szteambot",
-    "logo":"https://telegra.ph/file/f0537f89c1ef9ccc33ec9.jpg",
+    "repository": "https://github.com/Elnagar8",
+    "logo":"https://telegra.ph/file/200ef14e739d6fb543356.jpg",
     "keywords": [
         "Bot",
         "Telegram ",
@@ -26,7 +26,7 @@
             "required": true
         },
         "CHANNEL_ID": {
-            "description": "frwd channel msg to @szrosebot and reply with id cmd",
+            "description": "frwd channel msg to @S88DBOT and reply with id cmd",
             "required": true
         },
         "CHANNEL": {
@@ -34,7 +34,7 @@
             "required": true
         },
         "OWNER": {
-            "description": "owner id get it from @szrosebot send /id cmd",
+            "description": "owner id get it from @S88DBOT send /id cmd",
             "required": true
         }
     },
